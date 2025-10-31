@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+.env/
+
+# Build artifacts
+build/
+dist/
+release/
+*.spec
+!idf_optimized.spec
+!idf_onefile.spec
+
+# Logs
+*.log
+build_log.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model caches
+sentence_transformers/*

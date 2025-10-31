@@ -1,0 +1,13 @@
+Corrector de Contextos - Manual de Usuario
+
+Este documento describe el funcionamiento del corrector de contextos avanzado.
+El sistema permite corregir errores gramaticales y de contexto en documentos.
+
+Características principales:
+- Análisis semántico de textos
+- Corrección automática de contexto
+- Sugerencias inteligentes
+- Integración con múltiples formatos
+
+El corrector de contextos utiliza inteligencia artificial para mejorar la calidad
+de los documentos y asegurar coherencia en el contenido.

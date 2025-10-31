@@ -1,0 +1,11 @@
+Guía de Instalación de Software
+
+Este manual explica cómo instalar diferentes aplicaciones en Windows.
+
+Pasos:
+1. Descargar el instalador
+2. Ejecutar como administrador
+3. Seguir el asistente de instalación
+4. Configurar las preferencias
+
+El proceso es sencillo y no requiere conocimientos técnicos avanzados.

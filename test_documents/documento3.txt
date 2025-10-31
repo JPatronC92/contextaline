@@ -1,0 +1,11 @@
+Sistema de Gestión Documental
+
+Nuestra plataforma permite organizar y buscar documentos de manera eficiente.
+
+Funcionalidades:
+- Búsqueda semántica
+- Clasificación automática
+- Indexación inteligente
+- Recuperación rápida de información
+
+El sistema está diseñado para empresas que manejan grandes volúmenes de documentos.
