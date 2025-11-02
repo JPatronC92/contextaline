@@ -3,10 +3,16 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
+*$py.class
+*.so
 
 # Environments
 .venv/
 .env/
+venv/
+ENV/
+env/
 
 # Build artifacts
 build/
@@ -15,18 +21,41 @@ release/
 *.spec
 !idf_optimized.spec
 !idf_onefile.spec
+*.egg-info/
+.eggs/
+
+# Installers
+*.exe
+*.msi
+*.dmg
+!scripts/*.exe
 
 # Logs
 *.log
 build_log.txt
+pip-log.txt
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Model caches
-sentence_transformers/*
+sentence_transformers/
+.cache/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/

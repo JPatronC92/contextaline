@@ -208,27 +208,41 @@ IntelligentDocumentFinder/
 │   ├── app.py              # Aplicación principal
 │   ├── license.py          # Sistema de licencias
 │   └── app_version.py      # Información de versión
+├── docs/
+│   ├── UX_UI_AUDIT_REPORT.md      # Auditoría UX/UI
+│   ├── BUILD_INSTRUCTIONS.md      # Instrucciones de build
+│   ├── PRESENTATION_GUIDE.md      # Guía de presentación
+│   └── DEMO_QUICK_NOTES.md        # Notas rápidas para demos
 ├── scripts/
 │   ├── installer.iss       # Script de Inno Setup
 │   └── preload_model.py    # Pre-descarga del modelo
 ├── tests/
 │   └── smoke_test.py       # Tests de humo
 ├── test_documents/         # Documentos de prueba
+├── .github/                # Templates de issues y PRs
 ├── requirements.txt        # Dependencias Python
 ├── build.ps1              # Script de build Windows
 ├── build.sh               # Script de build Linux/Mac
-├── UX_UI_AUDIT_REPORT.md  # Auditoría UX/UI
-├── CHANGELOG_v1.3.0.md    # Changelog detallado
+├── demo.ps1               # Script de demo automatizado
+├── Iniciar_App.bat        # Launcher de la aplicación
+├── CHANGELOG.md           # Historial de cambios
 └── README.md              # Este archivo
 ```
 
 ### Documentos Disponibles
 
-- **[📋 Manual de Usuario](MANUAL_USUARIO.md)** - Guía completa para usuarios
-- **[🔧 Instrucciones de Build](BUILD_INSTRUCTIONS.md)** - Cómo compilar la app
-- **[🎨 Auditoría UX/UI](UX_UI_AUDIT_REPORT.md)** - Análisis detallado de UX/UI
-- **[📝 Changelog v1.3.0](CHANGELOG_v1.3.0.md)** - Notas de la versión actual
-- **[📊 Reportes](STATUS_REPORT.md)** - Estado del proyecto
+- **[� Changelog](CHANGELOG.md)** - Historial de cambios y versiones
+- **[❓ FAQ](FAQ.md)** - Preguntas frecuentes
+- **[🤝 Contributing](CONTRIBUTING.md)** - Guía para contribuir
+- **[� Security](SECURITY.md)** - Política de seguridad
+- **[📜 Code of Conduct](CODE_OF_CONDUCT.md)** - Código de conducta
+
+### Documentación Técnica (docs/)
+
+- **[🎨 Auditoría UX/UI](docs/UX_UI_AUDIT_REPORT.md)** - Análisis detallado de UX/UI
+- **[� Instrucciones de Build](docs/BUILD_INSTRUCTIONS.md)** - Cómo compilar la app
+- **[🎤 Guía de Presentación](docs/PRESENTATION_GUIDE.md)** - Script para demos
+- **[� Notas Rápidas](docs/DEMO_QUICK_NOTES.md)** - Cheat sheet para demos
 
 ### Generar Licencias
 
