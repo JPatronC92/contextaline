@@ -14,7 +14,8 @@ DefaultGroupName=Julio Devs
 DisableDirPage=no
 DisableProgramGroupPage=yes
 OutputDir=..\dist\installer
-OutputBaseFilename=DocumentIntelligence_Setup
+; Include version in filename to avoid replacing a locked file
+OutputBaseFilename=DocumentIntelligence_Setup_{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 ArchitecturesInstallIn64BitMode=x64
