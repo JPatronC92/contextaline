@@ -457,35 +457,56 @@ class DocumentFinderApp(QMainWindow):
                 border: 2px solid #ddd;
                 border-radius: 4px;
                 font-size: 13px;
+                background-color: #ffffff;
+                color: #000000;
             }
             QLineEdit:focus, QComboBox:focus {
                 border-color: #0066cc;
+                background-color: #ffffff;
+                color: #000000;
+            }
+            QComboBox QAbstractItemView {
+                background-color: #ffffff;
+                color: #000000;
+                selection-background-color: #e3f2fd;
+                selection-color: #0066cc;
             }
             QListWidget {
                 border: 1px solid #ddd;
                 border-radius: 4px;
                 font-size: 12px;
+                background-color: #ffffff;
+                color: #000000;
             }
             QListWidget::item {
                 padding: 10px;
                 border-bottom: 1px solid #f0f0f0;
+                color: #000000;
             }
             QListWidget::item:hover {
                 background-color: #f5f5f5;
+                color: #000000;
             }
             QListWidget::item:selected {
                 background-color: #e3f2fd;
-                color: black;
+                color: #0066cc;
             }
             QProgressBar {
                 border: 1px solid #ddd;
                 border-radius: 4px;
                 text-align: center;
                 height: 25px;
+                color: #000000;
             }
             QProgressBar::chunk {
                 background-color: #0066cc;
                 border-radius: 3px;
+            }
+            QLabel {
+                color: #000000;
+            }
+            QStatusBar {
+                color: #000000;
             }
         """)
 
